@@ -1,0 +1,8 @@
+<script>
+    // Considere que o preço final de uma camisa é a soma do custo de fábrica, o imposto estadual (20%) e margem do vendedor (35%), ambos aplicados sobre o custo de fábrica.
+    // Faça um script que leia o custo de fábrica da camisa e calcule os custos adicionais, apresentando o custo final da camisa ao comprador.
+
+    const fabrica = prompt('Qual o custo de fabrica?');
+    const final = Number(fabrica) + (Number(fabrica * 0.20)) + Number((fabrica * 0.35));
+    alert('O custo final foi R$' +final.toFixed(2));
+</script>

@@ -1,0 +1,9 @@
+<script>
+// Elaborar um programa para uma cadeira de massagem. O programa deve ler o valor para cada 3 minutos de uso da cadeira e o tempo que a pessoa utilizou em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 3 minutos devem ser cobradas de forma integral.
+
+const valorminutos = Number(prompt('Qual o valor por 3 minutos'));
+const tempo = Number(prompt("Digite o tempo utilizado em minutos:"));
+const total = (tempo / 3) * valorminutos;
+alert('Valor a ser pago: R$' + total.toFixed(2));
+
+</script>
